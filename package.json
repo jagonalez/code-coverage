@@ -1,0 +1,16 @@
+{
+  "name": "code-coverage",
+  "version": "1.0.0",
+  "description": "uses puppeteer to display CSS and JS coverage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jeremy Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "puppeteer": "^1.6.1"
+  }
+}
