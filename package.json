@@ -4,22 +4,33 @@
   "description": "uses puppeteer to display CSS and JS coverage",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "start": "node -r babel-register server.js"
   },
   "author": "Jeremy Gonzalez",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.3",
-    "jest": "^23.4.2",
     "puppeteer": "^1.6.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-table": "^6.8.6"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.4.2",
+    "regenerator-runtime": "^0.12.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "setupTestFrameworkScriptFile": "./jest.js"
   }
 }

@@ -8,9 +8,3 @@
 - `yarn run start`
 - navigate to [localhost:3000](https://localhost:3000)
 - enter a URL into the search page and the analysis loads below.
-
-### Building
-- `yarn run build`
-
-### Testing
-- `yarn run test`
