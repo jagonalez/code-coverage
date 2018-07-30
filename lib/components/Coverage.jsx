@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTable from 'react-table';
 
-export default ({ columns, data }) => (
+export const Coverage = ({ columns, data }) => (
   <div>
     {data.map((d, index) => (
       <div key={index}>
